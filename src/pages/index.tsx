@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+export const config = { runtime: "edge" };
+
 export async function getServerSideProps() {
   return {
     props: {
