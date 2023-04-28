@@ -1,7 +1,7 @@
 import { GetServerSideProps } from "next";
 import Head from "next/head";
 
-export const config = { runtime: "edge" };
+export const config = { runtime: "experimental-edge" };
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   // add Cache-Control HTTP Header to response
